@@ -24,8 +24,8 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- Loading... -->
+  <p>Loading...</p>
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -33,9 +33,22 @@
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    ga('create', 'UA-176919996-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
+
+  <!-- script to route to IG page -->
+  <script>
+    (function(){
+      document.addEventListener('DOMContentLoaded', function(){
+        console.log('Routing...');
+        window.location.href = 'https://www.instagram.com/starbucks.ewa.wing.official/';
+      });
+    })();
+  </script>
+  <!-- /script to route to IG page -->
+
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </body>
 
 </html>
